@@ -1,0 +1,4 @@
+baseURL = "http://www.awsguru.cn/"
+languageCode = "zh-cn"
+title = "AWS Guru"
+theme = "ananke"
