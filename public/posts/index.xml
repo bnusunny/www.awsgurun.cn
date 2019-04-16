@@ -11,7 +11,7 @@
       <html lang="zh-cn">
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>RSS | AWS Guru</title>
+          <title>Posts RSS | AWS Guru</title>
           <link rel="stylesheet" href="http://www.awsguru.cn/css/base.min.c13d5885f80aad7e1920f98851dc7be78f7c575b1d4675c47017e471ca11e3fb.css" integrity="sha256-wT1YhfgKrX4ZIPmIUdx75498V1sdRnXEcBfkccoR4/s=" />
         </head>
         <body>
@@ -46,7 +46,7 @@
               <div class="u-padding">
                 <h2 class="Heading-title">
                   
-                  <a class="Heading-link u-clickable" href="http://www.awsguru.cn/index.xml" rel="bookmark">RSS</a>
+                  <a class="Heading-link u-clickable" href="http://www.awsguru.cn/posts/index.xml" rel="bookmark">Posts RSS</a>
                   
                 </h2>
                 
@@ -71,13 +71,13 @@
     </xsl:template>
   </xsl:stylesheet>
   <channel>
-    <title>AWS Guru</title>
-    <link>http://www.awsguru.cn/</link>
-    <description>Recent content on AWS Guru</description>
+    <title>Posts on AWS Guru</title>
+    <link>http://www.awsguru.cn/posts/</link>
+    <description>Recent content in Posts on AWS Guru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 16 Apr 2019 09:32:07 +0800</lastBuildDate>
-    <atom:link href="http://www.awsguru.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2019 00:45:23 +0800</lastBuildDate>
+    <atom:link href="http://www.awsguru.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS全球各区域间网络延迟数据</title>
       <link>http://www.awsguru.cn/posts/awscloudping/</link>

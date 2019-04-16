@@ -1,14 +1,81 @@
+
+
+
+
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="xsl">
+    <xsl:output method="html" doctype-system="about:legacy-compat" />
+    <xsl:template match="/rss">
+      <html lang="zh-cn">
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Tags RSS | AWS Guru</title>
+          <link rel="stylesheet" href="http://www.awsguru.cn/css/base.min.c13d5885f80aad7e1920f98851dc7be78f7c575b1d4675c47017e471ca11e3fb.css" integrity="sha256-wT1YhfgKrX4ZIPmIUdx75498V1sdRnXEcBfkccoR4/s=" />
+        </head>
+        <body>
+          <nav class="u-background">
+  <div class="u-wrapper">
+    <ul class="Banner">
+      <li class="Banner-item Banner-item--title">
+        <a class="Banner-link u-clickable" href="http://www.awsguru.cn/">AWS Guru</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="http://www.awsguru.cn/about/">关于</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="http://www.awsguru.cn/posts/">帖子</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="http://www.awsguru.cn/tags/">标签</a>
+      </li>
+      
+      <li class="Banner-item">
+        <a class="Banner-link u-clickable" href="http://www.awsguru.cn/categories/">分类</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+          <main>
+            <div class="u-wrapper">
+              <div class="u-padding">
+                <h2 class="Heading-title">
+                  
+                  <a class="Heading-link u-clickable" href="http://www.awsguru.cn/tags/index.xml" rel="bookmark">Tags RSS</a>
+                  
+                </h2>
+                
+                <p>
+                  To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader.
+                </p>
+                
+              </div>
+            </div>
+          </main>
+          
+<footer class="Footer">
+  <div class="u-wrapper">
+    <div class="u-padding">
+      @ AWS Guru
+    </div>
+  </div>
+</footer>
+
+        </body>
+      </html>
+    </xsl:template>
+  </xsl:stylesheet>
   <channel>
     <title>Tags on AWS Guru</title>
     <link>http://www.awsguru.cn/tags/</link>
     <description>Recent content in Tags on AWS Guru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    
-	<atom:link href="http://www.awsguru.cn/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://www.awsguru.cn/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

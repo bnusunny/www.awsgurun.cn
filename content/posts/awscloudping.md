@@ -1,7 +1,7 @@
 ---
 title: "AWS全球各区域间网络延迟数据"
 date: 2019-04-16T00:45:23+08:00
-draft: true
+draft: false
 ---
 
 下面列出了AWS 20个区域中部署的Smokeping应用的访问地址。Smokeping可以看到每个区域到其他AWS区域的网络延迟数据。
