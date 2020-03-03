@@ -4,7 +4,7 @@ date: 2019-04-16T00:45:23+08:00
 draft: false
 ---
 
-下面列出了AWS 20个区域中部署的Smokeping应用的访问地址。Smokeping可以看到每个区域到其他AWS区域的网络延迟数据。
+下面列出了AWS 21个区域中部署的Smokeping应用的访问地址。Smokeping可以看到每个区域到其他AWS区域的网络延迟数据。
 
 - [中国(北京)](http://cn-north-1.sp.awsguru.cn/smokeping/?target=AWS_Regions)
 - [中国(宁夏)](http://cn-northwest-1.sp.awsguru.cn/smokeping/?target=AWS_Regions)
@@ -25,4 +25,5 @@ draft: false
 - [欧洲(伦敦)](http://eu-west-2.sp.awsguru.cn/smokeping/?target=AWS_Regions)
 - [欧洲(巴黎)](http://eu-west-3.sp.awsguru.cn/smokeping/?target=AWS_Regions)
 - [欧洲(斯德哥尔摩)](http://eu-north-1.sp.awsguru.cn/smokeping/?target=AWS_Regions)
+- [中东(巴林)](http://me-south-1.sp.awsguru.cn/smokeping/?target=AWS_Regions)
 - [南美洲(圣保罗)](http://sa-east-1.sp.awsguru.cn/smokeping/?target=AWS_Regions)
